@@ -25,6 +25,7 @@ and August were less than -1%. The situation on the Gem index is similar, but th
 According to the statistical analysis in the second part, construct a simple monthly timing strategy and conduct historical backtesting. That is, first perform statistical 
 analysis on the historical index data to calculate the historical average of the monthly return. When the average monthly return is greater than 1%, change the month to long,
 and change the month to short when the average monthly return is less than -1%. The remaining months are equivalent to short positions. 
+
 ### Shanghai Composite Index backtest
 <div align=center><img width="640" alt="上证回测" src="https://user-images.githubusercontent.com/78734848/117839573-eec66d80-b2ad-11eb-8f9a-2a16cf966840.png"><div align=left>
 Output:
@@ -38,6 +39,7 @@ Annualized rate of return：strategy：12.93%, index：1.99%
 Maximum drawdown：  strategy：26.36%, index：45.92%
 
 Alpha： 0.13, Beta：0.14, Sharp：1.91
+
 
 ### Gem Index backtest
 <div align=center><img width="640" alt="创业板回测" src="https://user-images.githubusercontent.com/78734848/117839809-27fedd80-b2ae-11eb-8b38-0c2c535c6a0c.png"><div align=left>
