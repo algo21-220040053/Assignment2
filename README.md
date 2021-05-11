@@ -21,5 +21,8 @@ and August were less than -1%. The situation on the Gem index is similar, but th
   
 <img width="640" alt="创业板月度平均收益率" src="https://user-images.githubusercontent.com/78734848/117837436-0997e280-b2ac-11eb-9b0d-6d360c4cb999.png"><div align=left>
 
-
+## Backtest
+According to the statistical analysis in the second part, construct a simple monthly timing strategy and conduct historical backtesting. That is, first perform statistical 
+analysis on the historical index data to calculate the historical average of the monthly return. When the average monthly return is greater than 1%, change the month to long,
+and change the month to short when the average monthly return is less than -1%. The remaining months are equivalent to short positions. 
 
